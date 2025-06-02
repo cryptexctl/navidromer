@@ -1,0 +1,15 @@
+[Unit]
+Description=Navidrome Telegram Bot Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/your/dir
+ExecStart=python3 /your/path/navidromer/base.py
+Restart=always
+RestartSec=5
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=multi-user.target
