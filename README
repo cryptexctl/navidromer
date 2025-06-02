@@ -1,0 +1,45 @@
+                ===RUSSIAN===
+
+Telegram бот для загрузки музыки в Navidrome
+
+Установка:
+1. Установите Python 3.7+
+2. pip install -r requirements.txt
+
+Настройка:
+1. Получите токен бота у @BotFather
+2. Создайте канал и получите его ID
+3. Откройте base.py и замените:
+   - YOUR_BOT_TOKEN на токен бота
+   - /path/to/music/ на путь к папке с музыкой
+   - YOUR_CHANNEL_ID на ID канала
+
+Запуск:
+python base.py
+
+Использование:
+1. Отправьте боту /start
+2. Выберите режим загрузки
+3. Отправьте аудиофайл
+4. Подтвердите загрузку 
+
+                ===ENGLISH===
+Telegram bot for uploading music to Navidrome
+
+Installation:
+1. Install Python 3.7+
+2. pip install -r requirements.txt
+
+Configuration:
+1. Get bot token from @BotFather
+2. Create a channel and get its ID
+3. Open base.py and replace:
+   - YOUR_BOT_TOKEN with bot token
+   - /path/to/music/ with path to music folder
+   - YOUR_CHANNEL_ID with channel ID
+
+Usage:
+1. Send /start to the bot
+2. Select upload mode
+3. Send audio file
+4. Confirm upload 
